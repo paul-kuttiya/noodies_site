@@ -4,11 +4,11 @@
  * Dual licensed under the MIT and GPL licenses.
  * Copyright (c) 2009 Anders Fajerson
  * @name     timePicker
- * @author   Anders Fajerson (http://perifer.se)
+ * @author   Anders Fajerson (https://perifer.se)
  * @example  $("#mytime").timePicker();
  * @example  $("#mytime").timePicker({step:30, startTime:"15:00", endTime:"18:00"});
  *
- * Based on timePicker by Sam Collet (http://www.texotela.co.uk/code/jquery/timepicker/)
+ * Based on timePicker by Sam Collet (https://www.texotela.co.uk/code/jquery/timepicker/)
  *
  * Options:
  *   step: # of minutes to step the time by

@@ -7,7 +7,7 @@
  *
  * @package Quform
  * @subpackage Validator
- * @copyright Copyright (c) 2009-2018 ThemeCatcher (http://www.themecatcher.net)
+ * @copyright Copyright (c) 2009-2018 ThemeCatcher (https://www.themecatcher.net)
  */
 class Quform_Validator_InArray extends Quform_Validator_Abstract
 {

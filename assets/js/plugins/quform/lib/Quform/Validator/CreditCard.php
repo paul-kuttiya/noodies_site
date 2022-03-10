@@ -7,7 +7,7 @@
  *
  * @package Quform
  * @subpackage Validator
- * @copyright Copyright (c) 2009-2015 ThemeCatcher (http://www.themecatcher.net)
+ * @copyright Copyright (c) 2009-2015 ThemeCatcher (https://www.themecatcher.net)
  */
 class Quform_Validator_CreditCard extends Quform_Validator_Abstract
 {
@@ -44,7 +44,7 @@ class Quform_Validator_CreditCard extends Quform_Validator_Abstract
  * This source file is subject to the New BSD license, That is bundled
  * with this package in the file LICENSE, and is available through
  * the world-wide-web at
- * http://www.opensource.org/licenses/bsd-license.php
+ * https://www.opensource.org/licenses/bsd-license.php
  * If you did not receive a copy of the new BSDlicense and are unable
  * to obtain it through the world-wide-web, please send a note to
  * pajoye@php.net so we can mail you a copy immediately.
@@ -54,9 +54,9 @@ class Quform_Validator_CreditCard extends Quform_Validator_Abstract
  * @author    Stefan Neufeind <pear.neufeind@speedpartner.de>
  * @author    Philippe Jausions <Philippe.Jausions@11abacus.com>
  * @copyright 1997-2005  Stefan Neufeind
- * @license   http://www.opensource.org/licenses/bsd-license.php  New BSD License
+ * @license   https://www.opensource.org/licenses/bsd-license.php  New BSD License
  * @version   CVS: $Id$
- * @link      http://pear.php.net/package/Validate_Finance_CreditCard
+ * @link      https://pear.php.net/package/Validate_Finance_CreditCard
  */
 
 /**
@@ -76,9 +76,9 @@ class Quform_Validator_CreditCard extends Quform_Validator_Abstract
  * @author    Philippe Jausions <Philippe.Jausions@11abacus.com>
  * @author    Ondrej Jombik <nepto@pobox.sk>
  * @copyright 1997-2005  Stefan Neufeind
- * @license   http://www.opensource.org/licenses/bsd-license.php  New BSD License
+ * @license   https://www.opensource.org/licenses/bsd-license.php  New BSD License
  * @version   Release: @package_version@
- * @link      http://pear.php.net/package/Validate_Finance_CreditCard
+ * @link      https://pear.php.net/package/Validate_Finance_CreditCard
  */
 class Validate_Finance_CreditCard
 {
@@ -90,10 +90,10 @@ class Validate_Finance_CreditCard
      *
      * @param string $number number to check
      *
-     * @link http://www.webopedia.com/TERM/L/Luhn_formula.html
-     * @link http://www.merriampark.com/anatomycc.htm
-     * @link http://hysteria.sk/prielom/prielom-12.html#3 (Slovak language)
-     * @link http://www.speech.cs.cmu.edu/~sburke/pub/luhn_lib.html (Perl lib)
+     * @link https://www.webopedia.com/TERM/L/Luhn_formula.html
+     * @link https://www.merriampark.com/anatomycc.htm
+     * @link https://hysteria.sk/prielom/prielom-12.html#3 (Slovak language)
+     * @link https://www.speech.cs.cmu.edu/~sburke/pub/luhn_lib.html (Perl lib)
      *
      * @return bool    TRUE if number is valid, FALSE otherwise
      * @access public
@@ -189,7 +189,7 @@ class Validate_Finance_CreditCard
      * @return bool   TRUE is type matches, FALSE otherwise
      * @access public
      * @static
-     * @link http://www.beachnet.com/~hstiles/cardtype.html
+     * @link https://www.beachnet.com/~hstiles/cardtype.html
      */
     function type($creditCard, $cardType)
     {

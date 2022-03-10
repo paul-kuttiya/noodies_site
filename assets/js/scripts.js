@@ -12,7 +12,7 @@ $(document).on('ready',function($) {
     });
 
 	/*-------------------------------------------------*/
-	/* =  Main Nav 
+	/* =  Main Nav
 	/*-------------------------------------------------*/
 
 	$(function() {
@@ -53,7 +53,7 @@ $(document).on('ready',function($) {
 
 
 
-	
+
  	/*-------------------------------------------------*/
 	/* =  Isotope
 	/*-------------------------------------------------*/
@@ -81,7 +81,7 @@ $(document).on('ready',function($) {
 		var selector = $filter.find('a.active').attr('data-filter');
 
 		try {
-			$container.isotope({ 
+			$container.isotope({
 				filter	: selector,
 				animationOptions: {
 					duration: 750,
@@ -93,13 +93,13 @@ $(document).on('ready',function($) {
 		}
 		return false;
 	});
-	
-	// Isotope Filter 
+
+	// Isotope Filter
 	$filter.find('a').on('click', function(){
 		var selector = $(this).attr('data-filter');
 
 		try {
-			$container.isotope({ 
+			$container.isotope({
 				filter	: selector,
 				animationOptions: {
 					duration: 750,
@@ -131,20 +131,20 @@ $(document).on('ready',function($) {
 	/* =  Accordion isotope
 	/*-------------------------------------------------*/
 
-	$(document).on('ready',function($) { 
+	$(document).on('ready',function($) {
 		'use strict';
 
 		//Add Inactive Class To All Accordion Headers
 		$('.accordion-header').toggleClass('inactive-header');
-		
+
 		//Set The Accordion Content Width
 		// var contentwidth = $('.accordion-header').width();
 		// $('.accordion-content').css({'width' : contentwidth });
-		
+
 		//Open The First Accordion Section When Page Loads
 		$('.accordion-header').first().toggleClass('active-header').toggleClass('inactive-header');
 		$('.accordion-content').first().slideDown().toggleClass('open-content');
-		
+
 		// The Accordion Effect
 		$('.accordion-header').on('click', function () {
 			if($(this).is('.inactive-header')) {
@@ -152,13 +152,13 @@ $(document).on('ready',function($) {
 				$(this).toggleClass('active-header').toggleClass('inactive-header');
 				$(this).next().slideToggle().toggleClass('open-content');
 			}
-			
+
 			else {
 				$(this).toggleClass('active-header').toggleClass('inactive-header');
 				$(this).next().slideToggle().toggleClass('open-content');
 			}
 		});
-		
+
 		return false;
 	});
 
@@ -176,7 +176,7 @@ $(document).on('ready',function($) {
 	}
 
 
-	
+
 	/*-------------------------------------------------*/
 	/* =  Testimonials
 	/*-------------------------------------------------*/
@@ -186,7 +186,7 @@ $(document).on('ready',function($) {
              mode: 'horizontal',
              slideMargin: 0,
              auto:true
-         }); 
+         });
   	 } catch(err) {
 
   	 }
@@ -209,9 +209,9 @@ $(document).on('ready',function($) {
 
 	}
 
-	
 
-	
+
+
 	/*-------------------------------------------------*/
 	/* =  Animated content
 	/*-------------------------------------------------*/
@@ -278,7 +278,7 @@ $(document).on('ready',function($) {
 		var mapContainer = $('.map');
 		mapContainer.gmap3({
 			infowindow:{
-				address:"http://goo.gl/maps/Mt7xc",
+				address:"https://goo.gl/maps/Mt7xc",
 				options:{
 					content: "Copper!"
 				}
@@ -303,7 +303,7 @@ $(document).on('ready',function($) {
 	try	{
 		$(".alert").alert()
 	} catch(err) {
-		
+
 	}
 
 
@@ -341,7 +341,7 @@ $(document).on('ready',function($) {
 
 	}
 
-    
+
 
 	/*-------------------------------------------------*/
 	/* = skills animate
@@ -382,7 +382,7 @@ $(document).on('ready',function($) {
 	} catch(err) {
 
 	}
-	
+
 
 	/* ---------------------------------------------------------------------- */
 	/*	Contact Form
@@ -395,7 +395,7 @@ $(document).on('ready',function($) {
 		e.preventDefault();
 
 		var $this = $(this);
-		
+
 		$.ajax({
 			type: "POST",
 			url: 'contact.php',
@@ -414,7 +414,7 @@ $(document).on('ready',function($) {
 		});
 	});
 
-	// Header 
+	// Header
 
 
 	(function() {
@@ -431,7 +431,7 @@ $(document).on('ready',function($) {
 				}
 			}, false );
 		}
-		
+
 		function scrollPage() {
 			var sy = scrollY();
 			if ( sy >= changeHeaderOn ) {
@@ -442,14 +442,14 @@ $(document).on('ready',function($) {
 			}
 			didScroll = false;
 		}
-		
+
 		function scrollY() {
 			return window.pageYOffset || docElem.scrollTop;
 		}
-		
+
 		init();
 
-		
+
 	})();
 
 
@@ -467,7 +467,7 @@ $(document).on('ready',function($) {
 				}
 			}, false );
 		}
-		
+
 		function scrollPage() {
 			var sy = scrollY();
 			if ( sy >= changeHeaderOn ) {
@@ -478,17 +478,17 @@ $(document).on('ready',function($) {
 			}
 			didScroll = false;
 		}
-		
+
 		function scrollY() {
 			return window.pageYOffset || docElem.scrollTop;
 		}
-		
+
 		init();
 
-		
+
 	})();
 
-	
+
  	/*-------------------------------------------------*/
 	/* =  Isotope
 	/*-------------------------------------------------*/
@@ -516,7 +516,7 @@ $(document).on('ready',function($) {
 		var selector = $filter.find('a.active').attr('data-filter');
 
 		try {
-			$container.isotope({ 
+			$container.isotope({
 				filter	: selector,
 				animationOptions: {
 					duration: 750,
@@ -528,13 +528,13 @@ $(document).on('ready',function($) {
 		}
 		return false;
 	});
-	
-	// Isotope Filter 
+
+	// Isotope Filter
 	$filter.find('a').on('click', function(){
 		var selector = $(this).attr('data-filter');
 
 		try {
-			$container.isotope({ 
+			$container.isotope({
 				filter	: selector,
 				animationOptions: {
 					duration: 750,
@@ -566,20 +566,20 @@ $(document).on('ready',function($) {
 	/* =  Accordion isotope
 	/*-------------------------------------------------*/
 
-	$(document).on('ready',function($) { 
+	$(document).on('ready',function($) {
 		'use strict';
 
 		//Add Inactive Class To All Accordion Headers
 		$('.accordion-header').toggleClass('inactive-header');
-		
+
 		//Set The Accordion Content Width
 		// var contentwidth = $('.accordion-header').width();
 		// $('.accordion-content').css({'width' : contentwidth });
-		
+
 		//Open The First Accordion Section When Page Loads
 		$('.accordion-header').first().toggleClass('active-header').toggleClass('inactive-header');
 		$('.accordion-content').first().slideDown().toggleClass('open-content');
-		
+
 		// The Accordion Effect
 		$('.accordion-header').on('click', function () {
 			if($(this).is('.inactive-header')) {
@@ -587,13 +587,13 @@ $(document).on('ready',function($) {
 				$(this).toggleClass('active-header').toggleClass('inactive-header');
 				$(this).next().slideToggle().toggleClass('open-content');
 			}
-			
+
 			else {
 				$(this).toggleClass('active-header').toggleClass('inactive-header');
 				$(this).next().slideToggle().toggleClass('open-content');
 			}
 		});
-		
+
 		return false;
 	});
 
@@ -611,7 +611,7 @@ $(document).on('ready',function($) {
 	}
 
 
-	
+
 
 
 	/*-------------------------------------------------*/
@@ -623,7 +623,7 @@ $(document).on('ready',function($) {
              mode: 'horizontal',
              slideMargin: 0,
              auto:true
-         }); 
+         });
   	 } catch(err) {
 
   	 }
@@ -646,9 +646,9 @@ $(document).on('ready',function($) {
 
 	}
 
-	
 
-	
+
+
 	/*-------------------------------------------------*/
 	/* =  Animated content
 	/*-------------------------------------------------*/
@@ -715,7 +715,7 @@ $(document).on('ready',function($) {
 		var mapContainer = $('.map');
 		mapContainer.gmap3({
 			infowindow:{
-				address:"http://goo.gl/maps/Mt7xc",
+				address:"https://goo.gl/maps/Mt7xc",
 				options:{
 					content: "Copper!"
 				}
@@ -740,7 +740,7 @@ $(document).on('ready',function($) {
 	try	{
 		$(".alert").alert()
 	} catch(err) {
-		
+
 	}
 
 
@@ -778,7 +778,7 @@ $(document).on('ready',function($) {
 
 	}
 
-    
+
 
 	/*-------------------------------------------------*/
 	/* = skills animate
@@ -819,7 +819,7 @@ $(document).on('ready',function($) {
 	} catch(err) {
 
 	}
-	
+
 
 	/* ---------------------------------------------------------------------- */
 	/*	Contact Form
@@ -836,7 +836,7 @@ $(document).on('ready',function($) {
 		e.preventDefault();
 
 		var $this = $(this);
-		
+
 		$.ajax({
 			type: "POST",
 			url: 'contact.php',
@@ -855,7 +855,7 @@ $(document).on('ready',function($) {
 		});
 	});
 
-	// Header 
+	// Header
 
 
 	(function() {
@@ -872,7 +872,7 @@ $(document).on('ready',function($) {
 				}
 			}, false );
 		}
-		
+
 		function scrollPage() {
 			var sy = scrollY();
 			if ( sy >= changeHeaderOn ) {
@@ -883,14 +883,14 @@ $(document).on('ready',function($) {
 			}
 			didScroll = false;
 		}
-		
+
 		function scrollY() {
 			return window.pageYOffset || docElem.scrollTop;
 		}
-		
+
 		init();
 
-		
+
 	})();
 
 
@@ -908,7 +908,7 @@ $(document).on('ready',function($) {
 				}
 			}, false );
 		}
-		
+
 		function scrollPage() {
 			var sy = scrollY();
 			if ( sy >= changeHeaderOn ) {
@@ -919,14 +919,14 @@ $(document).on('ready',function($) {
 			}
 			didScroll = false;
 		}
-		
+
 		function scrollY() {
 			return window.pageYOffset || docElem.scrollTop;
 		}
-		
+
 		init();
 
-		
+
 	})();
 
 });

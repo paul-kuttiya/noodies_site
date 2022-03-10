@@ -5,7 +5,7 @@
  *
  * @package Quform
  * @subpackage Filter
- * @copyright Copyright (c) 2009-2015 ThemeCatcher (http://www.themecatcher.net)
+ * @copyright Copyright (c) 2009-2015 ThemeCatcher (https://www.themecatcher.net)
  */
 interface Quform_Filter_Interface
 {

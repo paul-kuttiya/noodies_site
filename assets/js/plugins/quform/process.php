@@ -118,7 +118,7 @@ $config['autoreplyBody'] = '/emails/autoreply.php';
  * Redirect the user when the form is successfully submitted by entering a URL here.
  * By default, users are not redirected.
  *
- * $config['redirect'] = 'http://www.example.com/thanks.html';
+ * $config['redirect'] = 'https://www.example.com/thanks.html';
  */
 $config['redirect'] = '';
 
@@ -145,7 +145,7 @@ $config['uploadPath'] = QUFORM_ROOT . '/uploads';
  * Set this to the URL of the above folder to be sent links to uploaded
  * files in the notification email. E.g.
  *
- * $config['uploadUrl'] = 'http://www.example.com/quform/uploads';
+ * $config['uploadUrl'] = 'https://www.example.com/quform/uploads';
  */
 $config['uploadUrl'] = '';
 

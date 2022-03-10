@@ -1,10 +1,10 @@
 /*
  * jQuery FlexSlider v2.2.0
- * http://www.woothemes.com/flexslider/
+ * https://www.woothemes.com/flexslider/
  *
  * Copyright 2012 WooThemes
  * Free to use under the GPLv2 license.
- * http://www.gnu.org/licenses/gpl-2.0.html
+ * https://www.gnu.org/licenses/gpl-2.0.html
  *
  * Contributing author: Tyler Smith (@mbmufffin)
  */
@@ -38,11 +38,11 @@
 /* FlexSlider Necessary Styles
 *********************************/
 .flexslider {margin: 0; padding: 0;}
-.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; text-align: center; } 
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; text-align: center; }
 .flexslider .slides > li img { max-width: 100%; line-height: 0; }
 .flexslider .slides.post_slideshow_widget > li { margin-right: 0 !important; }
 .flexslider .slides.post_slideshow_widget > li img { margin-bottom: 10px; }
-#page_slider.flexslider .slides > li { margin-right: 0 !important; } 
+#page_slider.flexslider .slides > li { margin-right: 0 !important; }
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */

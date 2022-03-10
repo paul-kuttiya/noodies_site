@@ -6,7 +6,7 @@
  * A Quform form
  *
  * @package Quform
- * @copyright Copyright (c) 2009-2015 ThemeCatcher (http://www.themecatcher.net)
+ * @copyright Copyright (c) 2009-2015 ThemeCatcher (https://www.themecatcher.net)
  */
 class Quform
 {

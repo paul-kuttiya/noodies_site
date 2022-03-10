@@ -8,7 +8,7 @@
  *
  * @package Quform
  * @subpackage Validator
- * @copyright Copyright (c) 2009-2015 ThemeCatcher (http://www.themecatcher.net)
+ * @copyright Copyright (c) 2009-2015 ThemeCatcher (https://www.themecatcher.net)
  */
 class Quform_Validator_WordCount extends Quform_Validator_Abstract
 {

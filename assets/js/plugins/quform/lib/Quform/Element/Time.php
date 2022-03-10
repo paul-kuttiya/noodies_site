@@ -7,7 +7,7 @@
  *
  * @package Quform
  * @subpackage Element
- * @copyright Copyright (c) 2009-2015 ThemeCatcher (http://www.themecatcher.net)
+ * @copyright Copyright (c) 2009-2015 ThemeCatcher (https://www.themecatcher.net)
  */
 class Quform_Element_Time extends Quform_Element
 {
